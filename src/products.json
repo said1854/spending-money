@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"gum",
+        "price":0.2
+    },
+    {
+        "id":2,
+        "title":"Coke",
+        "price":1.4
+    },
+    {
+        "id":3,
+        "title":"shoes",
+        "price":40
+    },
+    {
+        "id":4,
+        "title":"car",
+        "price":20000
+    }
+]
