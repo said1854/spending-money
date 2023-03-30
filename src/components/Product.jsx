@@ -30,19 +30,37 @@ function Product({ product, basket, setBasket, total, money }) {
 	}
 
     return (
-        <>
-            <div className="bg-white border w-56 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mr-8">
-                <img className="rounded-t-lg w-48 h-48" src={product.link} alt="" />
-                <div className="p-5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{product.title}</h5>
-                    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">${moneyFormat(product.price)}</p>
-                    <button onClick={removeBasket} disabled={!basketItem}  className='bg-red-600 p-3 rounded-lg'>sat</button>
-                    <span className='p-3 border rounded-lg'>{basketItem && basketItem.amount || 0} </span>
-                    <button onClick={addBasket} disabled={total + product.price > money}  className='bg-green-600 p-3 rounded-lg'>satin al</button>
-                </div>
-            </div>
-        </>
-      )
+      <>
+        <div className="bg-white border w-48 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
+          <img className="rounded-t-lg w-48 h-48" src={product.link} alt="" />
+          <div className="p-5">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              {product.title}
+            </h5>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              ${moneyFormat(product.price)}
+            </p>
+            <button
+              onClick={removeBasket}
+              disabled={!basketItem}
+              className="bg-red-600 p-2 rounded"
+            >
+              sat
+            </button>
+            <span className="p-2 border rounded">
+              {(basketItem && basketItem.amount) || 0}{" "}
+            </span>
+            <button
+              onClick={addBasket}
+              disabled={total + product.price > money}
+              className="bg-green-600 p-2 rounded"
+            >
+              satin al
+            </button>
+          </div>
+        </div>
+      </>
+    );
 }
 
 export default Product

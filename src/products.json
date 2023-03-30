@@ -1,32 +1,50 @@
 [
-    {
-        "id":1,
-        "title":"Sakiz",
-        "price":0.5,
-        "link":"https://st2.myideasoft.com/idea/gm/43/myassets/products/316/123316-1.jpg?revision=1664360967"
-    },
-    {
-        "id":2,
-        "title":"Kola",
-        "price":2,
-        "link":"https://ayb.akinoncdn.com/products/2019/01/22/1485/4a19a83a-7901-456b-b12e-0b9798512b07_size780x780_quality60_cropCenter.jpg"
-    },
-    {
-        "id":3,
-        "title":"Ayakkabi",
-        "price":40,
-        "link":"https://thumbs.dreamstime.com/b/london-uk-january-adidas-originals-shoes-white-background-german-multinational-corporation-designs-manufactures-sports-107072481.jpg"
-    },
-    {
-        "id":4,
-        "title":"Spor araba",
-        "price":20000000000,
-        "link":"https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/638444/mclaren-650s-photo-640505-s-original.jpg"
-    },
-    {
-        "id":5,
-        "title":"Kaplan",
-        "price":80000000,
-        "link":"https://thumbs.dreamstime.com/b/tiger-isolated-white-background-37931409.jpg"
-    }
+  {
+    "id": 1,
+    "title": "Sakiz",
+    "price": 0.5,
+    "link": "https://st2.myideasoft.com/idea/gm/43/myassets/products/316/123316-1.jpg?revision=1664360967"
+  },
+  {
+    "id": 2,
+    "title": "Kola",
+    "price": 2,
+    "link": "https://ayb.akinoncdn.com/products/2019/01/22/1485/4a19a83a-7901-456b-b12e-0b9798512b07_size780x780_quality60_cropCenter.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Ayakkabi",
+    "price": 40,
+    "link": "https://thumbs.dreamstime.com/b/london-uk-january-adidas-originals-shoes-white-background-german-multinational-corporation-designs-manufactures-sports-107072481.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Kaplan",
+    "price": 7500,
+    "link": "https://thumbs.dreamstime.com/b/tiger-isolated-white-background-37931409.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Villa",
+    "price": 200000,
+    "link": "https://www.shutterstock.com/shutterstock/photos/739589806/display_1500/stock-photo-modern-house-d-rendering-on-white-background-739589806.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Spor araba",
+    "price": 2000000,
+    "link": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/media/638444/mclaren-650s-photo-640505-s-original.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Otel",
+    "price": 200000000,
+    "link": "https://i4.hurimg.com/i/hurriyet/75/750x422/60ac1a1a7af5073a20d0caad.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Canakkale koprusu",
+    "price": 1900000000,
+    "link": "https://m.bianet.org/system/uploads/1/articles/spot_image/000/259/279/original/Ads%C4%B1z_tasar%C4%B1m.jpg"
+  }
 ]
