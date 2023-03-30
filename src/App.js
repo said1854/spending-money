@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Product from "./components/Product";
 import Basket from "./components/Basket";
 import products from "./products.json";
+import Footer from "./components/Footer";
 
 function App() {
   const [money, setMoney] = useState(128000000000);
@@ -26,7 +27,7 @@ function App() {
   return (
     <>
       <Header total={total} money={money} />
-      <div className=" w-1/2 mx-auto">
+      <div className="w-2/3 md:w-1/2 mx-auto">
         <div className="container flex flex-wrap">
           {products.map((product) => (
             <Product
@@ -48,6 +49,7 @@ function App() {
           />
         )}
       </div>
+      <Footer />
     </>
   );
 }
